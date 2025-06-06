@@ -1,7 +1,6 @@
 const express = require(`express`);
 const path = require(`path`);
 const expressServer = express();
-const extIP = require(`ext-ip`);
 
 expressServer.set('trust proxy', true);
 expressServer.set(`view engine`, `ejs`);
@@ -12,3 +11,5 @@ expressServer.get(`/`, (req, res) => {
     console.log(`Client IP: ${ip}`);
     res.render(`index`);
 });
+
+expressServer.listen(4000);
