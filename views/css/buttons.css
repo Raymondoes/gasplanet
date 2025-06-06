@@ -1,0 +1,32 @@
+#btn{
+    border: 0;
+    border-radius: 8px;
+    height:40px;
+    color: white;
+    background-color: #0070f0;
+    transition: background-color 0.1s;
+}
+
+#btn:hover{
+    background-color: #3459ff;
+}
+
+#btn:focus{
+    background-color: #3459ff;
+}
+
+#age{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: purple;
+    transition: border-radius 0.3s;
+    color: white;
+    outline:none;
+    text-align: center;
+}
+
+#age:focus{
+    border-radius:8px;
+}
