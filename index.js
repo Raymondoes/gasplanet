@@ -12,5 +12,3 @@ expressServer.get(`/`, (req, res) => {
     console.log(`Client IP: ${ip}`);
     res.render(`index`);
 });
-
-expressServer.listen(4000);
